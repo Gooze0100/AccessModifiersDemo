@@ -74,6 +74,5 @@ public class AccessDemo
     // protected it is not used so often if you do not inheritance if you do it then it is used quite often
     // access modifiers prevents bugs
     // give least access to others and cleans our instances when called.
-    // make overall intent private as possible 
-    // 
+    // make overall intent private as possible
 }
