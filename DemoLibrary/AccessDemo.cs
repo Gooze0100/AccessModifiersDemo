@@ -7,6 +7,8 @@ public class AccessDemo
     private void Demo()
     {
         PrivateDemo();
+        AccessDemo demo = new();
+        demo.InternalDemo();
     }
 
     // private is only accessible in area it was declared, so just think that it is just accessible just in curly braces of this class
@@ -70,5 +72,8 @@ public class AccessDemo
     // it is DRY where you can use your code elsewhere and it is very important part of being developer
     // so think of using few times but written once
     // protected it is not used so often if you do not inheritance if you do it then it is used quite often
+    // access modifiers prevents bugs
+    // give least access to others and cleans our instances when called.
+    // make overall intent private as possible 
     // 
 }
